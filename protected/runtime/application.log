@@ -1,0 +1,1044 @@
+2015/07/11 20:10:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/model/index".' in /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#1 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/purchaseorderweb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/purchaseorderweb/index.php?r=gii/model/index
+---
+2015/07/11 23:36:51 [error] [exception.CException] exception 'CException' with message 'OrderController cannot find the requested view "view".' in /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php:878
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(782): CController->renderPartial('view', Array, true)
+#1 /var/www/purchaseorderweb/protected/controllers/OrderController.php(88): CController->render('view', Array)
+#2 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CInlineAction.php(49): OrderController->actionGenerate()
+#3 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#10 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('generate')
+#12 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('order/generate')
+#13 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#14 /var/www/purchaseorderweb/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/purchaseorderweb/index.php?r=order/generate
+HTTP_REFERER=http://localhost/purchaseorderweb/index.php?r=shoppingcart/checkout&providerid=1
+---
+2015/07/11 23:39:39 [error] [exception.CException] exception 'CException' with message 'OrderController cannot find the requested view "view".' in /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php:878
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(782): CController->renderPartial('view', Array, true)
+#1 /var/www/purchaseorderweb/protected/controllers/OrderController.php(88): CController->render('view', Array)
+#2 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CInlineAction.php(49): OrderController->actionGenerate()
+#3 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#10 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('generate')
+#12 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('order/generate')
+#13 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#14 /var/www/purchaseorderweb/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/purchaseorderweb/index.php?r=order/generate
+HTTP_REFERER=http://localhost/purchaseorderweb/index.php?r=shoppingcart/checkout&providerid=1
+---
+2015/07/11 23:47:49 [error] [exception.CException] exception 'CException' with message 'OrderController cannot find the requested view "view".' in /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php:878
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(782): CController->renderPartial('view', Array, true)
+#1 /var/www/purchaseorderweb/protected/controllers/OrderController.php(87): CController->render('view', Array)
+#2 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CInlineAction.php(49): OrderController->actionGenerate()
+#3 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#10 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('generate')
+#12 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('order/generate')
+#13 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#14 /var/www/purchaseorderweb/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/purchaseorderweb/index.php?r=order/generate
+HTTP_REFERER=http://localhost/purchaseorderweb/index.php?r=shoppingcart/checkout&providerid=1
+---
+2015/07/11 23:51:25 [error] [exception.CException] exception 'CException' with message 'OrderController cannot find the requested view "view".' in /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php:878
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(782): CController->renderPartial('view', Array, true)
+#1 /var/www/purchaseorderweb/protected/controllers/OrderController.php(87): CController->render('view', Array)
+#2 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CInlineAction.php(49): OrderController->actionGenerate()
+#3 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#10 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('generate')
+#12 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('order/generate')
+#13 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#14 /var/www/purchaseorderweb/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/purchaseorderweb/index.php?r=order/generate
+HTTP_REFERER=http://localhost/purchaseorderweb/index.php?r=shoppingcart/checkout&providerid=1
+---
+2015/07/11 23:56:18 [error] [exception.CException] exception 'CException' with message 'OrderController cannot find the requested view "confirm".' in /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php:878
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(782): CController->renderPartial('confirm', Array, true)
+#1 /var/www/purchaseorderweb/protected/controllers/OrderController.php(88): CController->render('confirm', Array)
+#2 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CInlineAction.php(49): OrderController->actionGenerate()
+#3 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#10 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('generate')
+#12 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('order/generate')
+#13 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#14 /var/www/purchaseorderweb/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/purchaseorderweb/index.php?r=order/generate
+HTTP_REFERER=http://localhost/purchaseorderweb/index.php?r=shoppingcart/checkout&providerid=1
+---
+2015/07/11 23:59:39 [error] [exception.CException] exception 'CException' with message 'OrderController cannot find the requested view "confirm".' in /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php:878
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(782): CController->renderPartial('confirm', Array, true)
+#1 /var/www/purchaseorderweb/protected/controllers/OrderController.php(89): CController->render('confirm', Array)
+#2 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CInlineAction.php(49): OrderController->actionGenerate()
+#3 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#10 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('generate')
+#12 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('order/generate')
+#13 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#14 /var/www/purchaseorderweb/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/purchaseorderweb/index.php?r=order/generate
+HTTP_REFERER=http://localhost/purchaseorderweb/index.php?r=shoppingcart/checkout&providerid=1
+---
+2015/07/12 01:14:45 [error] [php] Undefined index: quantity (/var/www/purchaseorderweb/protected/controllers/OrderController.php:116)
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs()
+#1 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(133): OrderController->runAction()
+#4 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#6 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): OrderController->filterAccessControl()
+#7 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#8 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#9 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): OrderController->runActionWithFilters()
+#10 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): OrderController->run()
+#11 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#13 /var/www/purchaseorderweb/index.php(13): CWebApplication->run()
+REQUEST_URI=/purchaseorderweb/index.php?r=order/generate&providerid=1
+in /var/www/purchaseorderweb/protected/controllers/OrderController.php (116)
+in /var/www/purchaseorderweb/protected/controllers/OrderController.php (94)
+in /var/www/purchaseorderweb/index.php (13)
+2015/07/13 20:50:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "purchaseorder/index".' in /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('purchaseorder/i...')
+#1 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/purchaseorderweb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/purchaseorderweb/index.php?r=purchaseorder/index
+HTTP_REFERER=http://localhost/purchaseorderweb/index.php
+---
+2015/07/13 23:03:03 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`purchaseorderdb`.`purchaseorder_items`, CONSTRAINT `fk_purchaseorder_items` FOREIGN KEY (`purchaseorderid`) REFERENCES `product` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `purchaseorder_items` (`price`, `productid`, `quantity`, `purchaseorderid`) VALUES (:yp0, :yp1, :yp2, :yp3).
+in /var/www/purchaseorderweb/protected/controllers/OrderController.php (120)
+in /var/www/purchaseorderweb/protected/controllers/OrderController.php (94)
+in /var/www/purchaseorderweb/index.php (13)
+2015/07/13 23:03:03 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`purchaseorderdb`.`purchaseorder_items`, CONSTRAINT `fk_purchaseorder_items` FOREIGN KEY (`purchaseorderid`) REFERENCES `product` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `purchaseorder_items` (`price`, `productid`, `quantity`, `purchaseorderid`) VALUES (:yp0, :yp1, :yp2, :yp3)' in /home/cescobar/yii-1.1.16.bca042/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/db/ar/CActiveRecord.php(1080): CDbCommand->execute()
+#1 /home/cescobar/yii-1.1.16.bca042/framework/db/ar/CActiveRecord.php(809): CActiveRecord->insert(NULL)
+#2 /var/www/purchaseorderweb/protected/controllers/OrderController.php(120): CActiveRecord->save()
+#3 /var/www/purchaseorderweb/protected/controllers/OrderController.php(94): OrderController->savePurchaseOrderItems(Object(Purchaseorder), Array)
+#4 [internal function]: OrderController->actionGenerate('1')
+#5 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(OrderController), Array)
+#6 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(OrderController), Object(ReflectionMethod), Array)
+#7 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#14 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('generate')
+#16 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('order/generate')
+#17 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /var/www/purchaseorderweb/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/purchaseorderweb/index.php?r=order/generate&providerid=1
+HTTP_REFERER=http://localhost/purchaseorderweb/index.php?r=shoppingcart/checkout&providerid=1
+---
+2015/07/13 23:17:05 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`purchaseorderdb`.`purchaseorder_items`, CONSTRAINT `fk_purchaseorder_items` FOREIGN KEY (`purchaseorderid`) REFERENCES `product` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `purchaseorder_items` (`price`, `productid`, `quantity`, `purchaseorderid`) VALUES (:yp0, :yp1, :yp2, :yp3).
+in /var/www/purchaseorderweb/protected/controllers/OrderController.php (120)
+in /var/www/purchaseorderweb/protected/controllers/OrderController.php (94)
+in /var/www/purchaseorderweb/index.php (13)
+2015/07/13 23:17:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`purchaseorderdb`.`purchaseorder_items`, CONSTRAINT `fk_purchaseorder_items` FOREIGN KEY (`purchaseorderid`) REFERENCES `product` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `purchaseorder_items` (`price`, `productid`, `quantity`, `purchaseorderid`) VALUES (:yp0, :yp1, :yp2, :yp3)' in /home/cescobar/yii-1.1.16.bca042/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/db/ar/CActiveRecord.php(1080): CDbCommand->execute()
+#1 /home/cescobar/yii-1.1.16.bca042/framework/db/ar/CActiveRecord.php(809): CActiveRecord->insert(NULL)
+#2 /var/www/purchaseorderweb/protected/controllers/OrderController.php(120): CActiveRecord->save()
+#3 /var/www/purchaseorderweb/protected/controllers/OrderController.php(94): OrderController->savePurchaseOrderItems(Object(Purchaseorder), Array)
+#4 [internal function]: OrderController->actionGenerate('1')
+#5 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(OrderController), Array)
+#6 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(OrderController), Object(ReflectionMethod), Array)
+#7 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#14 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('generate')
+#16 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('order/generate')
+#17 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /var/www/purchaseorderweb/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/purchaseorderweb/index.php?r=order/generate&providerid=1
+HTTP_REFERER=http://localhost/purchaseorderweb/index.php?r=shoppingcart/checkout&providerid=1
+---
+2015/07/13 23:21:25 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`purchaseorderdb`.`purchaseorder_items`, CONSTRAINT `fk_purchaseorder_items` FOREIGN KEY (`purchaseorderid`) REFERENCES `product` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `purchaseorder_items` (`price`, `productid`, `quantity`, `purchaseorderid`) VALUES (:yp0, :yp1, :yp2, :yp3).
+in /var/www/purchaseorderweb/protected/controllers/OrderController.php (120)
+in /var/www/purchaseorderweb/protected/controllers/OrderController.php (94)
+in /var/www/purchaseorderweb/index.php (13)
+2015/07/13 23:21:25 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`purchaseorderdb`.`purchaseorder_items`, CONSTRAINT `fk_purchaseorder_items` FOREIGN KEY (`purchaseorderid`) REFERENCES `product` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `purchaseorder_items` (`price`, `productid`, `quantity`, `purchaseorderid`) VALUES (:yp0, :yp1, :yp2, :yp3)' in /home/cescobar/yii-1.1.16.bca042/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/db/ar/CActiveRecord.php(1080): CDbCommand->execute()
+#1 /home/cescobar/yii-1.1.16.bca042/framework/db/ar/CActiveRecord.php(809): CActiveRecord->insert(NULL)
+#2 /var/www/purchaseorderweb/protected/controllers/OrderController.php(120): CActiveRecord->save()
+#3 /var/www/purchaseorderweb/protected/controllers/OrderController.php(94): OrderController->savePurchaseOrderItems(Object(Purchaseorder), Array)
+#4 [internal function]: OrderController->actionGenerate('1')
+#5 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(OrderController), Array)
+#6 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(OrderController), Object(ReflectionMethod), Array)
+#7 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#14 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('generate')
+#16 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('order/generate')
+#17 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#18 /var/www/purchaseorderweb/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/purchaseorderweb/index.php?r=order/generate&providerid=1
+HTTP_REFERER=http://localhost/purchaseorderweb/index.php?r=shoppingcart/checkout&providerid=1
+---
+2015/07/13 23:27:17 [error] [php] include(Purchaseorder_items.php): failed to open stream: No such file or directory (/home/cescobar/yii-1.1.16.bca042/framework/YiiBase.php:432)
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/db/ar/CActiveRecord.php(395): spl_autoload_call()
+#1 /home/cescobar/yii-1.1.16.bca042/framework/db/ar/CActiveFinder.php(182): model()
+#2 /home/cescobar/yii-1.1.16.bca042/framework/db/ar/CActiveFinder.php(230): CActiveFinder->getModel()
+#3 /home/cescobar/yii-1.1.16.bca042/framework/db/ar/CActiveFinder.php(48): CActiveFinder->buildJoinTree()
+#4 /home/cescobar/yii-1.1.16.bca042/framework/db/ar/CActiveRecord.php(912): CActiveFinder->__construct()
+#5 /home/cescobar/yii-1.1.16.bca042/framework/db/ar/CActiveRecord.php(280): Purchaseorder->getActiveFinder()
+#6 /home/cescobar/yii-1.1.16.bca042/framework/db/ar/CActiveRecord.php(143): Purchaseorder->getRelated()
+#7 /var/www/purchaseorderweb/protected/views/order/view.php(44): Purchaseorder->__get()
+#8 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(126): require()
+#9 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(95): OrderController->renderInternal()
+#10 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(869): OrderController->renderFile()
+#11 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(782): OrderController->renderPartial()
+#12 /var/www/purchaseorderweb/protected/controllers/OrderController.php(99): OrderController->render()
+#13 unknown(0): OrderController->actionGenerate()
+#14 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs()
+#15 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#16 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(308): CInlineAction->runWithParams()
+#17 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(133): OrderController->runAction()
+#18 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#19 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#20 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): OrderController->filterAccessControl()
+#21 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#22 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#23 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): OrderController->runActionWithFilters()
+#24 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): OrderController->run()
+#25 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#26 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#27 /var/www/purchaseorderweb/index.php(13): CWebApplication->run()
+REQUEST_URI=/purchaseorderweb/index.php?r=order/generate&providerid=1
+in /var/www/purchaseorderweb/protected/views/order/view.php (44)
+in /var/www/purchaseorderweb/protected/controllers/OrderController.php (99)
+in /var/www/purchaseorderweb/index.php (13)
+2015/07/13 23:30:54 [error] [exception.CException] exception 'CException' with message 'Property "Product.quantity" is not defined.' in /home/cescobar/yii-1.1.16.bca042/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/db/ar/CActiveRecord.php(145): CComponent->__get('quantity')
+#1 /var/www/purchaseorderweb/protected/views/order/view.php(51): CActiveRecord->__get('quantity')
+#2 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(126): require('/var/www/purcha...')
+#3 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/purcha...', Array, true)
+#4 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(869): CBaseController->renderFile('/var/www/purcha...', Array, true)
+#5 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(782): CController->renderPartial('view', Array, true)
+#6 /var/www/purchaseorderweb/protected/controllers/OrderController.php(99): CController->render('view', Array)
+#7 [internal function]: OrderController->actionGenerate('1')
+#8 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(OrderController), Array)
+#9 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(OrderController), Object(ReflectionMethod), Array)
+#10 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#17 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('generate')
+#19 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('order/generate')
+#20 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#21 /var/www/purchaseorderweb/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/purchaseorderweb/index.php?r=order/generate&providerid=1
+HTTP_REFERER=http://localhost/purchaseorderweb/index.php?r=shoppingcart/checkout&providerid=1
+---
+2015/07/13 23:32:42 [error] [php] Undefined variable: purchase_order (/var/www/purchaseorderweb/protected/controllers/OrderController.php:99)
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(133): OrderController->runAction()
+#3 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): OrderController->filterAccessControl()
+#6 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#8 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): OrderController->runActionWithFilters()
+#9 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): OrderController->run()
+#10 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /var/www/purchaseorderweb/index.php(13): CWebApplication->run()
+REQUEST_URI=/purchaseorderweb/index.php?r=order/generate&providerid=1
+in /var/www/purchaseorderweb/protected/controllers/OrderController.php (99)
+in /var/www/purchaseorderweb/index.php (13)
+2015/07/14 02:54:26 [error] [exception.CException] exception 'CException' with message 'Property "Purchaseorder.tax" is not defined.' in /home/cescobar/yii-1.1.16.bca042/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/db/ar/CActiveRecord.php(161): CComponent->__set('tax', 0.07)
+#1 /var/www/purchaseorderweb/protected/controllers/OrderController.php(85): CActiveRecord->__set('tax', 0.07)
+#2 [internal function]: OrderController->actionGenerate('1')
+#3 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(OrderController), Array)
+#4 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(OrderController), Object(ReflectionMethod), Array)
+#5 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#8 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#12 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('generate')
+#14 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('order/generate')
+#15 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /var/www/purchaseorderweb/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/purchaseorderweb/index.php?r=order/generate&providerid=1
+HTTP_REFERER=http://localhost/purchaseorderweb/index.php?r=shoppingcart/checkout&providerid=1
+---
+2015/07/14 03:03:33 [error] [php] Trying to get property of non-object (/var/www/purchaseorderweb/protected/views/order/_view.php:21)
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(869): OrderController->renderFile()
+#1 /var/www/purchaseorderweb/protected/views/order/view.php(10): OrderController->renderPartial()
+#2 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(126): require()
+#3 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(95): OrderController->renderInternal()
+#4 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(869): OrderController->renderFile()
+#5 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(782): OrderController->renderPartial()
+#6 /var/www/purchaseorderweb/protected/controllers/OrderController.php(96): OrderController->render()
+#7 unknown(0): OrderController->actionGenerate()
+#8 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs()
+#9 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#10 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(308): CInlineAction->runWithParams()
+#11 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(133): OrderController->runAction()
+#12 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#14 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): OrderController->filterAccessControl()
+#15 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#16 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#17 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): OrderController->runActionWithFilters()
+#18 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): OrderController->run()
+#19 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#20 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#21 /var/www/purchaseorderweb/index.php(13): CWebApplication->run()
+REQUEST_URI=/purchaseorderweb/index.php?r=order/generate&providerid=1
+in /var/www/purchaseorderweb/protected/views/order/_view.php (21)
+in /var/www/purchaseorderweb/protected/views/order/view.php (10)
+in /var/www/purchaseorderweb/protected/controllers/OrderController.php (96)
+2015/07/14 03:31:10 [error] [exception.CException] exception 'CException' with message 'Property "Purchaseorder.phone" is not defined.' in /home/cescobar/yii-1.1.16.bca042/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/db/ar/CActiveRecord.php(145): CComponent->__get('phone')
+#1 /var/www/purchaseorderweb/protected/views/order/_view.php(26): CActiveRecord->__get('phone')
+#2 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(126): require('/var/www/purcha...')
+#3 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/purcha...', Array, true)
+#4 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(869): CBaseController->renderFile('/var/www/purcha...', Array, true)
+#5 /var/www/purchaseorderweb/protected/views/order/view.php(11): CController->renderPartial('_view', Array)
+#6 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(126): require('/var/www/purcha...')
+#7 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/purcha...', Array, true)
+#8 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(869): CBaseController->renderFile('/var/www/purcha...', Array, true)
+#9 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(782): CController->renderPartial('view', Array, true)
+#10 /var/www/purchaseorderweb/protected/controllers/OrderController.php(96): CController->render('view', Array)
+#11 [internal function]: OrderController->actionGenerate('1')
+#12 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(OrderController), Array)
+#13 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(OrderController), Object(ReflectionMethod), Array)
+#14 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#17 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#21 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('generate')
+#23 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('order/generate')
+#24 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#25 /var/www/purchaseorderweb/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/purchaseorderweb/index.php?r=order/generate&providerid=1
+HTTP_REFERER=http://localhost/purchaseorderweb/index.php?r=shoppingcart/checkout&providerid=1
+---
+2015/07/14 03:33:10 [error] [exception.CException] exception 'CException' with message 'Property "Purchaseorder.address" is not defined.' in /home/cescobar/yii-1.1.16.bca042/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/db/ar/CActiveRecord.php(145): CComponent->__get('address')
+#1 /var/www/purchaseorderweb/protected/views/order/_view.php(28): CActiveRecord->__get('address')
+#2 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(126): require('/var/www/purcha...')
+#3 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/purcha...', Array, true)
+#4 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(869): CBaseController->renderFile('/var/www/purcha...', Array, true)
+#5 /var/www/purchaseorderweb/protected/views/order/view.php(11): CController->renderPartial('_view', Array)
+#6 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(126): require('/var/www/purcha...')
+#7 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/purcha...', Array, true)
+#8 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(869): CBaseController->renderFile('/var/www/purcha...', Array, true)
+#9 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(782): CController->renderPartial('view', Array, true)
+#10 /var/www/purchaseorderweb/protected/controllers/OrderController.php(96): CController->render('view', Array)
+#11 [internal function]: OrderController->actionGenerate('1')
+#12 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(OrderController), Array)
+#13 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(OrderController), Object(ReflectionMethod), Array)
+#14 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#17 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#21 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('generate')
+#23 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('order/generate')
+#24 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#25 /var/www/purchaseorderweb/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/purchaseorderweb/index.php?r=order/generate&providerid=1
+HTTP_REFERER=http://localhost/purchaseorderweb/index.php?r=shoppingcart/checkout&providerid=1
+---
+2015/07/14 16:30:09 [error] [php] Undefined variable: model (/var/www/purchaseorderweb/protected/controllers/OrderController.php:96)
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(133): OrderController->runAction()
+#3 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): OrderController->filterAccessControl()
+#6 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#8 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): OrderController->runActionWithFilters()
+#9 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): OrderController->run()
+#10 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /var/www/purchaseorderweb/index.php(13): CWebApplication->run()
+REQUEST_URI=/purchaseorderweb/index.php?r=order/generate&providerid=1
+in /var/www/purchaseorderweb/protected/controllers/OrderController.php (96)
+in /var/www/purchaseorderweb/index.php (13)
+2015/07/14 16:38:57 [error] [php] Undefined variable: model (/var/www/purchaseorderweb/protected/controllers/OrderController.php:96)
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(133): OrderController->runAction()
+#3 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): OrderController->filterAccessControl()
+#6 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#8 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): OrderController->runActionWithFilters()
+#9 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): OrderController->run()
+#10 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#12 /var/www/purchaseorderweb/index.php(13): CWebApplication->run()
+REQUEST_URI=/purchaseorderweb/index.php?r=order/generate&providerid=1
+in /var/www/purchaseorderweb/protected/controllers/OrderController.php (96)
+in /var/www/purchaseorderweb/index.php (13)
+2015/07/15 00:15:47 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php:336
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('index')
+#9 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('product/index')
+#10 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /var/www/purchaseorderweb/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/purchaseorderweb/index.php?r=product/index&id=1
+---
+2015/07/15 00:22:36 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php:336
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('index')
+#9 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('product/index')
+#10 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /var/www/purchaseorderweb/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/purchaseorderweb/index.php?r=product/index&id=1
+---
+2015/07/15 00:33:53 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php:336
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('index')
+#9 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('product/index')
+#10 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /var/www/purchaseorderweb/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/purchaseorderweb/index.php?r=product/index&id=1
+---
+2015/07/15 00:48:11 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php:336
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('index')
+#9 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('product/index')
+#10 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /var/www/purchaseorderweb/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/purchaseorderweb/index.php?r=product/index&id=1
+---
+2015/07/15 00:49:49 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php:336
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('index')
+#9 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('product/index')
+#10 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /var/www/purchaseorderweb/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/purchaseorderweb/index.php?r=product/index&id=1
+---
+2015/07/15 00:53:48 [error] [exception.CException] exception 'CException' with message 'Product and its behaviors do not have a method or closure named "getData".' in /home/cescobar/yii-1.1.16.bca042/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/db/ar/CActiveRecord.php(227): CComponent->__call('getData', Array)
+#1 /home/cescobar/yii-1.1.16.bca042/framework/zii/widgets/CBaseListView.php(125): CActiveRecord->__call('getData', Array)
+#2 /home/cescobar/yii-1.1.16.bca042/framework/zii/widgets/CBaseListView.php(125): Product->getData()
+#3 /home/cescobar/yii-1.1.16.bca042/framework/zii/widgets/CListView.php(211): CBaseListView->init()
+#4 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(147): CListView->init()
+#5 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(180): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#6 /var/www/purchaseorderweb/protected/views/product/index.php(23): CBaseController->widget('zii.widgets.CLi...', Array)
+#7 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(126): require('/var/www/purcha...')
+#8 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/purcha...', Array, true)
+#9 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(869): CBaseController->renderFile('/var/www/purcha...', Array, true)
+#10 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#11 /var/www/purchaseorderweb/protected/controllers/ProductController.php(126): CController->render('index', Array)
+#12 [internal function]: ProductController->actionIndex('1')
+#13 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductController), Array)
+#14 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductController), Object(ReflectionMethod), Array)
+#15 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#16 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#18 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#22 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('index')
+#24 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('product/index')
+#25 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#26 /var/www/purchaseorderweb/index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/purchaseorderweb/index.php?r=product/index&id=1
+HTTP_REFERER=http://localhost/purchaseorderweb/index.php?r=provider/index
+---
+2015/07/15 01:11:01 [error] [exception.CException] exception 'CException' with message 'Product and its behaviors do not have a method or closure named "getData".' in /home/cescobar/yii-1.1.16.bca042/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/db/ar/CActiveRecord.php(227): CComponent->__call('getData', Array)
+#1 /home/cescobar/yii-1.1.16.bca042/framework/zii/widgets/CBaseListView.php(125): CActiveRecord->__call('getData', Array)
+#2 /home/cescobar/yii-1.1.16.bca042/framework/zii/widgets/CBaseListView.php(125): Product->getData()
+#3 /home/cescobar/yii-1.1.16.bca042/framework/zii/widgets/CListView.php(211): CBaseListView->init()
+#4 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(147): CListView->init()
+#5 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(180): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#6 /var/www/purchaseorderweb/protected/views/product/index.php(23): CBaseController->widget('zii.widgets.CLi...', Array)
+#7 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(126): require('/var/www/purcha...')
+#8 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/purcha...', Array, true)
+#9 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(869): CBaseController->renderFile('/var/www/purcha...', Array, true)
+#10 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#11 /var/www/purchaseorderweb/protected/controllers/ProductController.php(128): CController->render('index', Array)
+#12 [internal function]: ProductController->actionIndex('1')
+#13 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductController), Array)
+#14 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductController), Object(ReflectionMethod), Array)
+#15 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#16 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#17 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#18 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#19 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#20 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#21 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#22 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('index')
+#24 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('product/index')
+#25 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#26 /var/www/purchaseorderweb/index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/purchaseorderweb/index.php?r=product/index&id=1
+---
+2015/07/15 01:15:33 [error] [exception.CException] exception 'CException' with message 'Property "CActiveDataProvider.providerid" is not defined.' in /home/cescobar/yii-1.1.16.bca042/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/web/CActiveDataProvider.php(96): CComponent->__set('providerid', '1')
+#1 /var/www/purchaseorderweb/protected/controllers/ProductController.php(126): CActiveDataProvider->__construct('Product', Array)
+#2 [internal function]: ProductController->actionIndex('1')
+#3 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(ProductController), Array)
+#4 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProductController), Object(ReflectionMethod), Array)
+#5 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#8 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#12 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('index')
+#14 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('product/index')
+#15 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /var/www/purchaseorderweb/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/purchaseorderweb/index.php?r=product/index&id=1
+---
+2015/07/15 01:30:57 [error] [exception.CException] exception 'CException' with message 'Property "Product.code" is not defined.' in /home/cescobar/yii-1.1.16.bca042/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/db/ar/CActiveRecord.php(145): CComponent->__get('code')
+#1 /var/www/purchaseorderweb/protected/views/provider/_view.php(13): CActiveRecord->__get('code')
+#2 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(130): require('/var/www/purcha...')
+#3 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/purcha...', Array, false)
+#4 /home/cescobar/yii-1.1.16.bca042/framework/zii/widgets/CListView.php(291): CBaseController->renderFile('/var/www/purcha...', Array)
+#5 /home/cescobar/yii-1.1.16.bca042/framework/zii/widgets/CBaseListView.php(181): CListView->renderItems()
+#6 [internal function]: CBaseListView->renderSection(Array)
+#7 /home/cescobar/yii-1.1.16.bca042/framework/zii/widgets/CBaseListView.php(164): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{sort...')
+#8 /home/cescobar/yii-1.1.16.bca042/framework/zii/widgets/CBaseListView.php(149): CBaseListView->renderContent()
+#9 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(181): CBaseListView->run()
+#10 /var/www/purchaseorderweb/protected/views/provider/index.php(20): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(126): require('/var/www/purcha...')
+#12 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/purcha...', Array, true)
+#13 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(869): CBaseController->renderFile('/var/www/purcha...', Array, true)
+#14 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#15 /var/www/purchaseorderweb/protected/controllers/ProviderController.php(135): CController->render('index', Array)
+#16 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CInlineAction.php(49): ProviderController->actionIndex()
+#17 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#18 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#20 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#24 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('index')
+#26 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('provider/index')
+#27 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#28 /var/www/purchaseorderweb/index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/purchaseorderweb/index.php?r=provider/index
+HTTP_REFERER=http://localhost/purchaseorderweb/index.php?r=product/index&id=1
+---
+2015/07/15 01:31:03 [error] [exception.CException] exception 'CException' with message 'Property "Product.code" is not defined.' in /home/cescobar/yii-1.1.16.bca042/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/db/ar/CActiveRecord.php(145): CComponent->__get('code')
+#1 /var/www/purchaseorderweb/protected/views/provider/_view.php(13): CActiveRecord->__get('code')
+#2 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(130): require('/var/www/purcha...')
+#3 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/purcha...', Array, false)
+#4 /home/cescobar/yii-1.1.16.bca042/framework/zii/widgets/CListView.php(291): CBaseController->renderFile('/var/www/purcha...', Array)
+#5 /home/cescobar/yii-1.1.16.bca042/framework/zii/widgets/CBaseListView.php(181): CListView->renderItems()
+#6 [internal function]: CBaseListView->renderSection(Array)
+#7 /home/cescobar/yii-1.1.16.bca042/framework/zii/widgets/CBaseListView.php(164): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{sort...')
+#8 /home/cescobar/yii-1.1.16.bca042/framework/zii/widgets/CBaseListView.php(149): CBaseListView->renderContent()
+#9 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(181): CBaseListView->run()
+#10 /var/www/purchaseorderweb/protected/views/provider/index.php(20): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(126): require('/var/www/purcha...')
+#12 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/purcha...', Array, true)
+#13 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(869): CBaseController->renderFile('/var/www/purcha...', Array, true)
+#14 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#15 /var/www/purchaseorderweb/protected/controllers/ProviderController.php(135): CController->render('index', Array)
+#16 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CInlineAction.php(49): ProviderController->actionIndex()
+#17 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#18 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#20 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#24 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('index')
+#26 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('provider/index')
+#27 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#28 /var/www/purchaseorderweb/index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/purchaseorderweb/index.php?r=provider/index
+---
+2015/07/15 01:31:07 [error] [exception.CException] exception 'CException' with message 'Property "Product.code" is not defined.' in /home/cescobar/yii-1.1.16.bca042/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/db/ar/CActiveRecord.php(145): CComponent->__get('code')
+#1 /var/www/purchaseorderweb/protected/views/provider/_view.php(13): CActiveRecord->__get('code')
+#2 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(130): require('/var/www/purcha...')
+#3 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/purcha...', Array, false)
+#4 /home/cescobar/yii-1.1.16.bca042/framework/zii/widgets/CListView.php(291): CBaseController->renderFile('/var/www/purcha...', Array)
+#5 /home/cescobar/yii-1.1.16.bca042/framework/zii/widgets/CBaseListView.php(181): CListView->renderItems()
+#6 [internal function]: CBaseListView->renderSection(Array)
+#7 /home/cescobar/yii-1.1.16.bca042/framework/zii/widgets/CBaseListView.php(164): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{sort...')
+#8 /home/cescobar/yii-1.1.16.bca042/framework/zii/widgets/CBaseListView.php(149): CBaseListView->renderContent()
+#9 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(181): CBaseListView->run()
+#10 /var/www/purchaseorderweb/protected/views/provider/index.php(20): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(126): require('/var/www/purcha...')
+#12 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/purcha...', Array, true)
+#13 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(869): CBaseController->renderFile('/var/www/purcha...', Array, true)
+#14 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#15 /var/www/purchaseorderweb/protected/controllers/ProviderController.php(135): CController->render('index', Array)
+#16 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CInlineAction.php(49): ProviderController->actionIndex()
+#17 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#18 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#20 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#24 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('index')
+#26 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('provider/index')
+#27 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#28 /var/www/purchaseorderweb/index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/purchaseorderweb/index.php?r=provider/index
+HTTP_REFERER=http://localhost/purchaseorderweb/index.php?r=provider/view&id=1
+---
+2015/07/15 01:40:53 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php:336
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('index')
+#9 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('product/index')
+#10 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /var/www/purchaseorderweb/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/purchaseorderweb/index.php?r=product/index
+HTTP_REFERER=http://localhost/purchaseorderweb/index.php?r=product/view&id=1
+---
+2015/07/15 02:04:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /home/cescobar/yii-1.1.16.bca042/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#6 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('product/admin')
+#9 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#10 /var/www/purchaseorderweb/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/purchaseorderweb/index.php?r=product/admin
+HTTP_REFERER=http://localhost/purchaseorderweb/index.php?r=site/login
+---
+2015/07/15 02:08:35 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php:336
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('index')
+#9 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('product/index')
+#10 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /var/www/purchaseorderweb/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/purchaseorderweb/index.php?r=product/index
+HTTP_REFERER=http://localhost/purchaseorderweb/index.php?r=product/view&id=1
+---
+2015/07/15 02:08:39 [error] [php] htmlspecialchars() expects parameter 1 to be string, object given (/home/cescobar/yii-1.1.16.bca042/framework/web/helpers/CHtml.php:108)
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(130): require()
+#1 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(95): ProductController->renderInternal()
+#2 /home/cescobar/yii-1.1.16.bca042/framework/zii/widgets/CListView.php(291): ProductController->renderFile()
+#3 /home/cescobar/yii-1.1.16.bca042/framework/zii/widgets/CBaseListView.php(181): CListView->renderItems()
+#4 unknown(0): CListView->renderSection()
+#5 /home/cescobar/yii-1.1.16.bca042/framework/zii/widgets/CBaseListView.php(164): preg_replace_callback()
+#6 /home/cescobar/yii-1.1.16.bca042/framework/zii/widgets/CBaseListView.php(149): CListView->renderContent()
+#7 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(181): CListView->run()
+#8 /var/www/purchaseorderweb/protected/views/product/index.php(19): ProductController->widget()
+#9 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(126): require()
+#10 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(95): ProductController->renderInternal()
+#11 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(869): ProductController->renderFile()
+#12 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(782): ProductController->renderPartial()
+#13 /var/www/purchaseorderweb/protected/controllers/ProductController.php(135): ProductController->render()
+#14 unknown(0): ProductController->actionIndex()
+#15 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs()
+#16 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#17 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(308): CInlineAction->runWithParams()
+#18 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(133): ProductController->runAction()
+#19 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#20 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#21 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): ProductController->filterAccessControl()
+#22 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#23 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#24 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): ProductController->runActionWithFilters()
+#25 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): ProductController->run()
+#26 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#27 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#28 /var/www/purchaseorderweb/index.php(13): CWebApplication->run()
+REQUEST_URI=/purchaseorderweb/index.php?r=product/index&id=1
+in /var/www/purchaseorderweb/protected/views/product/_view.php (33)
+in /var/www/purchaseorderweb/protected/views/product/index.php (19)
+in /var/www/purchaseorderweb/protected/controllers/ProductController.php (135)
+2015/07/15 02:08:44 [error] [php] htmlspecialchars() expects parameter 1 to be string, object given (/home/cescobar/yii-1.1.16.bca042/framework/web/helpers/CHtml.php:108)
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(130): require()
+#1 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(95): ProductController->renderInternal()
+#2 /home/cescobar/yii-1.1.16.bca042/framework/zii/widgets/CListView.php(291): ProductController->renderFile()
+#3 /home/cescobar/yii-1.1.16.bca042/framework/zii/widgets/CBaseListView.php(181): CListView->renderItems()
+#4 unknown(0): CListView->renderSection()
+#5 /home/cescobar/yii-1.1.16.bca042/framework/zii/widgets/CBaseListView.php(164): preg_replace_callback()
+#6 /home/cescobar/yii-1.1.16.bca042/framework/zii/widgets/CBaseListView.php(149): CListView->renderContent()
+#7 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(181): CListView->run()
+#8 /var/www/purchaseorderweb/protected/views/product/index.php(19): ProductController->widget()
+#9 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(126): require()
+#10 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(95): ProductController->renderInternal()
+#11 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(869): ProductController->renderFile()
+#12 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(782): ProductController->renderPartial()
+#13 /var/www/purchaseorderweb/protected/controllers/ProductController.php(135): ProductController->render()
+#14 unknown(0): ProductController->actionIndex()
+#15 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs()
+#16 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#17 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(308): CInlineAction->runWithParams()
+#18 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(133): ProductController->runAction()
+#19 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#20 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#21 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): ProductController->filterAccessControl()
+#22 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#23 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#24 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): ProductController->runActionWithFilters()
+#25 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): ProductController->run()
+#26 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#27 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#28 /var/www/purchaseorderweb/index.php(13): CWebApplication->run()
+REQUEST_URI=/purchaseorderweb/index.php?r=product/index&id=1
+in /var/www/purchaseorderweb/protected/views/product/_view.php (33)
+in /var/www/purchaseorderweb/protected/views/product/index.php (19)
+in /var/www/purchaseorderweb/protected/controllers/ProductController.php (135)
+2015/07/15 02:30:27 [error] [php] Trying to get property of non-object (/home/cescobar/yii-1.1.16.bca042/framework/web/helpers/CHtml.php:2728)
+Stack trace:
+#0 /var/www/purchaseorderweb/protected/views/product/_form.php(60): CActiveForm->dropDownList()
+#1 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(126): require()
+#2 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(95): ProductController->renderInternal()
+#3 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(869): ProductController->renderFile()
+#4 /var/www/purchaseorderweb/protected/views/product/create.php(18): ProductController->renderPartial()
+#5 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(126): require()
+#6 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(95): ProductController->renderInternal()
+#7 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(869): ProductController->renderFile()
+#8 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(782): ProductController->renderPartial()
+#9 /var/www/purchaseorderweb/protected/controllers/ProductController.php(81): ProductController->render()
+#10 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CInlineAction.php(49): ProductController->actionCreate()
+#11 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(308): CInlineAction->runWithParams()
+#12 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(133): ProductController->runAction()
+#13 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#14 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#15 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): ProductController->filterAccessControl()
+#16 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#17 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#18 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): ProductController->runActionWithFilters()
+#19 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): ProductController->run()
+#20 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#21 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#22 /var/www/purchaseorderweb/index.php(13): CWebApplication->run()
+REQUEST_URI=/purchaseorderweb/index.php?r=product/create
+in /var/www/purchaseorderweb/protected/views/product/_form.php (60)
+in /var/www/purchaseorderweb/protected/views/product/create.php (18)
+in /var/www/purchaseorderweb/protected/controllers/ProductController.php (81)
+2015/07/15 02:33:07 [error] [php] Trying to get property of non-object (/home/cescobar/yii-1.1.16.bca042/framework/web/helpers/CHtml.php:2728)
+Stack trace:
+#0 /var/www/purchaseorderweb/protected/views/product/_form.php(60): CActiveForm->dropDownList()
+#1 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(126): require()
+#2 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(95): ProductController->renderInternal()
+#3 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(869): ProductController->renderFile()
+#4 /var/www/purchaseorderweb/protected/views/product/create.php(18): ProductController->renderPartial()
+#5 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(126): require()
+#6 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(95): ProductController->renderInternal()
+#7 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(869): ProductController->renderFile()
+#8 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(782): ProductController->renderPartial()
+#9 /var/www/purchaseorderweb/protected/controllers/ProductController.php(81): ProductController->render()
+#10 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CInlineAction.php(49): ProductController->actionCreate()
+#11 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(308): CInlineAction->runWithParams()
+#12 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(133): ProductController->runAction()
+#13 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#14 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#15 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): ProductController->filterAccessControl()
+#16 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#17 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#18 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): ProductController->runActionWithFilters()
+#19 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): ProductController->run()
+#20 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#21 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#22 /var/www/purchaseorderweb/index.php(13): CWebApplication->run()
+REQUEST_URI=/purchaseorderweb/index.php?r=product/create
+in /var/www/purchaseorderweb/protected/views/product/_form.php (60)
+in /var/www/purchaseorderweb/protected/views/product/create.php (18)
+in /var/www/purchaseorderweb/protected/controllers/ProductController.php (81)
+2015/07/15 02:35:38 [warning] [application] Failed to set unsafe attribute "id" of "Product".
+in /var/www/purchaseorderweb/protected/controllers/ProductController.php (74)
+in /var/www/purchaseorderweb/index.php (13)
+2015/07/15 02:38:21 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php:336
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('index')
+#9 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('product/index')
+#10 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /var/www/purchaseorderweb/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/purchaseorderweb/index.php?r=product/index
+HTTP_REFERER=http://localhost/purchaseorderweb/index.php?r=product/create
+---
+2015/07/15 02:40:03 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php:336
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('index')
+#9 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('product/index')
+#10 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /var/www/purchaseorderweb/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/purchaseorderweb/index.php?r=product/index
+HTTP_REFERER=http://localhost/purchaseorderweb/index.php?r=product/update&id=1
+---
+2015/07/15 02:42:09 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php:336
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('index')
+#9 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('product/index')
+#10 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /var/www/purchaseorderweb/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/purchaseorderweb/index.php?r=product/index
+HTTP_REFERER=http://localhost/purchaseorderweb/index.php?r=product/update&id=1
+---
+2015/07/15 02:42:24 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php:336
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('index')
+#9 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('product/index')
+#10 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#11 /var/www/purchaseorderweb/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/purchaseorderweb/index.php?r=product/index
+HTTP_REFERER=http://localhost/purchaseorderweb/index.php?r=product/update&id=1
+---
+2015/07/15 03:05:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "purchaseorder/index".' in /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('purchaseorder/i...')
+#1 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/purchaseorderweb/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/purchaseorderweb/index.php?r=purchaseorder/index
+---
+2015/07/15 03:06:22 [error] [exception.CException] exception 'CException' with message 'OrderController cannot find the requested view "view".' in /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php:878
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(782): CController->renderPartial('view', Array, true)
+#1 /var/www/purchaseorderweb/protected/controllers/OrderController.php(67): CController->render('view', Array)
+#2 [internal function]: OrderController->actionView('1')
+#3 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(OrderController), Array)
+#4 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(OrderController), Object(ReflectionMethod), Array)
+#5 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#8 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#12 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): CController->run('view')
+#14 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController('order/view')
+#15 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#16 /var/www/purchaseorderweb/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/purchaseorderweb/index.php?r=order/view&id=1
+HTTP_REFERER=http://localhost/purchaseorderweb/index.php?r=order/index
+---
