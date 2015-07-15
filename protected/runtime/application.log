@@ -1042,3 +1042,31 @@ Stack trace:
 REQUEST_URI=/purchaseorderweb/index.php?r=order/view&id=1
 HTTP_REFERER=http://localhost/purchaseorderweb/index.php?r=order/index
 ---
+2015/07/15 15:41:21 [error] [php] Undefined variable: data (/var/www/purchaseorderweb/protected/views/order/_view.php:4)
+Stack trace:
+#0 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(869): OrderController->renderFile()
+#1 /var/www/purchaseorderweb/protected/views/order/report.php(11): OrderController->renderPartial()
+#2 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(126): require()
+#3 /home/cescobar/yii-1.1.16.bca042/framework/web/CBaseController.php(95): OrderController->renderInternal()
+#4 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(869): OrderController->renderFile()
+#5 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(782): OrderController->renderPartial()
+#6 /var/www/purchaseorderweb/protected/controllers/OrderController.php(99): OrderController->render()
+#7 unknown(0): OrderController->actionGenerate()
+#8 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs()
+#9 /home/cescobar/yii-1.1.16.bca042/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#10 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(308): CInlineAction->runWithParams()
+#11 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(133): OrderController->runAction()
+#12 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#14 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CInlineFilter.php(58): OrderController->filterAccessControl()
+#15 /home/cescobar/yii-1.1.16.bca042/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#16 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(291): CFilterChain->run()
+#17 /home/cescobar/yii-1.1.16.bca042/framework/web/CController.php(265): OrderController->runActionWithFilters()
+#18 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(282): OrderController->run()
+#19 /home/cescobar/yii-1.1.16.bca042/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#20 /home/cescobar/yii-1.1.16.bca042/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#21 /var/www/purchaseorderweb/index.php(13): CWebApplication->run()
+REQUEST_URI=/purchaseorderweb/index.php?r=order/generate&providerid=1
+in /var/www/purchaseorderweb/protected/views/order/_view.php (4)
+in /var/www/purchaseorderweb/protected/views/order/report.php (11)
+in /var/www/purchaseorderweb/protected/controllers/OrderController.php (99)

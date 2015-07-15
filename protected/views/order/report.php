@@ -8,7 +8,7 @@
 ?>
 <div class="container">  
   
-  <?php $this->renderPartial('_view', array('model' => $model )); ?>
+  <?php $this->renderPartial('_report', array('model' => $model )); ?>
 
 </div>
 
